@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ➤ DocNode – Real-Time Doctor Appointment Platform
 
-## Getting Started
+**DocNode** is a Full Stack Telemedicine Platform that enables real-time consultations between doctors and patients from anywhere in the world. Built with cutting-edge technologies like **Next.js**, **Prisma**, **TailwindCSS**, **Shadcn UI**, and **Vonage** for secure video calling.
 
-First, run the development server:
+> ➤ Seamlessly book appointments, manage roles, conduct video calls, and handle subscriptions – all in real time.
+
+---
+
+## ➤ Live Demo
+
+🔗 [Visit Live Site](https://your-live-site-link.com)  
+📦 [View GitHub Repo](https://github.com/your-username/docnode)
+
+---
+
+## ➤ Preview
+
+![DocNode Preview](https://your-image-link.com/docnode-preview.png)
+
+---
+
+## ➤ Tech Stack
+
+| Frontend              | Backend          | Database       | Real-Time / Tools       |
+|-----------------------|------------------|----------------|--------------------------|
+| Next.js (App Router)  | API Routes (Next.js) | PostgreSQL / Supabase | Vonage (Video Calls)     |
+| TailwindCSS           | Prisma ORM       | PlanetScale     | Stripe (Subscriptions)   |
+| Shadcn UI             | JWT / Auth Logic |                | Clerk / Auth.js (Optional) |
+
+---
+
+## ➤ Features
+
+### ➤ Real-Time Functionality
+➡️ Appointment availability updates in **real time**  
+➡️ Real-time **video call joining** and live session UI  
+
+### ➤ Authentication & User Roles
+➡️ Register as a **Doctor** or **Patient**  
+➡️ Role-based access with protected dashboards  
+➡️ Admin approval flow for doctor accounts  
+
+### ➤ Doctor Discovery & Booking
+➡️ Search doctors by **specialty**  
+➡️ Browse real-time **slot availability**  
+➡️ Book and manage appointments with ease  
+
+### ➤ Appointment & Consultation System
+➡️ Patients: View, cancel, or **join video calls**  
+➡️ Doctors: Set availability, monitor earnings, accept calls  
+
+### ➤ Video Calling (Vonage Integration)
+➡️ In-browser secure consultations  
+➡️ Controls for **mute/unmute**, **video toggle**, **end call**
+
+### ➤ Subscription Management
+➡️ Patients can purchase monthly plans or credits  
+➡️ Admins can **review & process withdrawal requests**
+
+### ➤ Dashboards
+➡️ **Doctor Dashboard:** Availability, Calls, Earnings  
+➡️ **Admin Dashboard:** Doctor verification & payment handling  
+
+### ➤ Fully Responsive UI
+➡️ Built with **TailwindCSS** and **Shadcn UI**  
+➡️ Seamless user experience across all devices  
+
+---
+
+## ➤ Local Setup Instructions
 
 ```bash
+# Navigate to your desired location
+cd C:\Users\DELL\Desktop\Projects
+
+# Clone the repository
+git clone https://github.com/your-username/docnode.git
+cd docnode
+
+# Install project dependencies
+npm install
+
+# Set up environment variables
+cp .env.example .env
+
+# Generate Prisma client
+npx prisma generate
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
