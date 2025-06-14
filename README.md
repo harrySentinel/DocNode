@@ -1,6 +1,6 @@
 # ➤ DocNode – Real-Time Doctor Appointment Platform
 
-**DocNode** is a Full Stack Telemedicine Platform that enables real-time consultations between doctors and patients from anywhere in the world. Built with cutting-edge technologies like **Next.js**, **Prisma**, **TailwindCSS**, **Shadcn UI**, and **Vonage** for secure video calling.
+**DocNode** is a Full Stack Telemedicine Platform that enables real-time consultations between doctors and patients from anywhere in the world. Built with cutting-edge technologies like **Next.js**,**Neon**, **Prisma**, **TailwindCSS**, **Shadcn UI**, and **Vonage** for secure video calling.
 
 > ➤ Seamlessly book appointments, manage roles, conduct video calls, and handle subscriptions – all in real time.
 
